@@ -10,7 +10,7 @@ export default {
     title: "InboxScreen",
     decorators: [(story) => <Provider store={store}>{story()}</Provider>]
 }
-
+// init inbox component
 const Template = () => <InboxScreen />
 
 export const Default = Template.bind({});
